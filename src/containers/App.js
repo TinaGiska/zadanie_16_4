@@ -26,14 +26,13 @@ class App extends React.Component {
     }
 
     render() {
-        return (
-            <div className={style.TodoApp}>
-                <Title title="TODO LIST"/>
-                <ul>{list}</ul>
-                <p>Tasks added to list: {list.length}</p>
-            </div>
-        );
+      return (
+        <div className = {style.TodoApp}>
+          Tutaj pojawią się komponenty naszej aplikacji.
+          <Title />
+        </div>
+      );
     }
-}
+  }
 
 export default App;
